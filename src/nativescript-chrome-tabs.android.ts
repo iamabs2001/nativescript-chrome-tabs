@@ -12,7 +12,7 @@ let mCustomTabsServiceConnection: CustomTabsServiceConnection = null;
 let mCustomTabsSession: CustomTabsSession = null;
 const context = () => app.android.startActivity || app.android.context;
 
-export function init(): void {
+export function initChromeTab(): void {
 
   mCustomTabsServiceConnection = new (CustomTabsServiceConnection.extend({
     onCustomTabsServiceConnected: function (name: android.content.ComponentName, client: CustomTabsClient) {

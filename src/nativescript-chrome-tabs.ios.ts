@@ -24,7 +24,8 @@ class SFSafariViewControllerDelegateImpl extends NSObject implements SFSafariVie
     }
   }
 }
-export function init() {}
+
+export function initChromeTab() {}
 
 export function openWebView(options: NativescriptChromeTabsOptions): void {
   if (!options.url) {
