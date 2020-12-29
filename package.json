@@ -1,0 +1,25 @@
+{
+  "name": "nativescript-chrome-tabs",
+  "version": "0.1.0",
+  "description": "Nativescript chrome tabs plugin for android & ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No Test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamabs2001/nativescript-chrome-tabs.git"
+  },
+  "keywords": [
+    "nativescript-chrome-tabs",
+    "chrome-tabs",
+    "custom-chrome-tabs"
+  ],
+  "author": "Abhijeet Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamabs2001/nativescript-chrome-tabs/issues",
+    "email": "abhijeetsharma248@gmail.com"
+  },
+  "homepage": "https://github.com/iamabs2001/nativescript-chrome-tabs#readme"
+}
