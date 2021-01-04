@@ -1,6 +1,6 @@
-import { NativescriptChromeTabsOptions } from './nativescript-chrome-tabs';
-import {Color} from 'tns-core-modules/color';
-import * as utils from 'tns-core-modules/utils/utils';
+import { NativescriptChromeTabsOptions } from './nativescript-chrome-tabs.common';
+import {Color} from '@nativescript/core/color';
+import * as utils from '@nativescript/core/utils/utils';
 
 class SFSafariViewControllerDelegateImpl extends NSObject implements SFSafariViewControllerDelegate {
   public static ObjCProtocols = [SFSafariViewControllerDelegate];
@@ -27,7 +27,7 @@ class SFSafariViewControllerDelegateImpl extends NSObject implements SFSafariVie
 
 export function initChromeTab() {}
 
-export function openWebView(options: NativescriptChromeTabsOptions): void {
+export function openChromeTabs(options: NativescriptChromeTabsOptions): void {
   if (!options.url) {
     throw new Error('No url set in the Awesome WebView Options object.');
   }
