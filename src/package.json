@@ -1,6 +1,6 @@
 {
   "name": "nativescript-chrome-tabs",
-  "version": "0.1.0",
+  "version": "0.8.0",
   "description": "Nativescript chrome tabs plugin for android & ios",
   "main": "nativescript-chrome-tabs",
   "typings": "index.d.ts",
@@ -35,8 +35,10 @@
   },
   "keywords": [
     "nativescript-chrome-tabs",
-    "chrome-tabs",
-    "custom-chrome-tabs"
+    "custom-chrome-tabs",
+    "custom-web-view",
+    "in-app-webview",
+    "in-app-browser"
   ],
   "author": {
     "name": "Abhijeet Sharma",
