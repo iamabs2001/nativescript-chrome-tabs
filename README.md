@@ -1,9 +1,9 @@
 # Nativescript Chrome Tabs ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png) 
 
 
-[![npm](https://img.shields.io/npm/v/nativescript-chrome-tabs)](https://www.npmjs.com/package/nativescript-chrome-tabs)
-![NPM](https://img.shields.io/npm/l/nativescript-chrome-tabs)
-[![Build Status](https://travis-ci.org/iamabs2001/nativescript-chrome-tabs.svg?branch=master)](https://travis-ci.org/iamabs2001/nativescript-chrome-tabs)
+[![npm](https://img.shields.io/npm/v/nativescript-chrome-tabs?color=blue)](https://www.npmjs.com/package/nativescript-chrome-tabs)
+![GitHub](https://img.shields.io/github/license/iamabs2001/nativescript-chrome-tabs)
+[![Build Status](https://travis-ci.com/iamabs2001/nativescript-chrome-tabs.svg?token=DqJNCqdmjzS8VzQJy2Sz&branch=master)](https://travis-ci.com/iamabs2001/nativescript-chrome-tabs)
 ![npm](https://img.shields.io/npm/dt/nativescript-chrome-tabs)
 ![GitHub issues](https://img.shields.io/github/issues/iamabs2001/nativescript-chrome-tabs)
 ![Status](https://img.shields.io/badge/status-working-green)
