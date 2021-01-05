@@ -2,14 +2,14 @@
 
 
 [![npm](https://img.shields.io/npm/v/nativescript-chrome-tabs)](https://www.npmjs.com/package/nativescript-chrome-tabs)
+![NPM](https://img.shields.io/npm/l/nativescript-chrome-tabs)
 [![Build Status](https://travis-ci.org/iamabs2001/nativescript-chrome-tabs.svg?branch=master)](https://travis-ci.org/iamabs2001/nativescript-chrome-tabs)
 ![npm](https://img.shields.io/npm/dt/nativescript-chrome-tabs)
-![NPM](https://img.shields.io/npm/l/nativescript-chrome-tabs)
 ![GitHub issues](https://img.shields.io/github/issues/iamabs2001/nativescript-chrome-tabs)
 ![Status](https://img.shields.io/badge/status-working-green)
 [![Twitter Follow](https://img.shields.io/twitter/follow/iamabs2001?style=social)](https://twitter.com/iamabs2001)
 
-Chrome Tabs Plugin to open a custom chrome tabs in android (chrome) & ios (safari).
+Chrome Tabs Plugin to open a custom chrome/safari tabs in android & ios.
 
 ## Installation
 
@@ -68,6 +68,8 @@ myCustomWeb() {
 }
 ```
 
+<hr>
+
 ## API (Properties)
 
 | Property | Default | Description |
@@ -79,9 +81,15 @@ myCustomWeb() {
 | isClosed | undefined | callback function that will be called when webview is closed |
 
 
+<hr>
+
 ## API (Methods)
 
 | Method | Type | Returns |Description |
 | --- | --- | --- | --- |
 | initChromeTab(); | constructor | void | To Initialize Chrome Tab |
 | openChromeTab(url : String, toolbarColor : String, toolbarControlsColor : String); | method | void | To Open a Chrome Tab |
+
+<hr>
+
+https://developer.chrome.com/docs/multidevice/android/customtabs/
