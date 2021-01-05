@@ -1,24 +1,38 @@
 # Nativescript Chrome Tabs ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png) 
 
 
-![npm](https://img.shields.io/npm/v/nativescript-chrome-tabs)
+[![npm](https://img.shields.io/npm/v/nativescript-chrome-tabs)](https://www.npmjs.com/package/nativescript-chrome-tabs)
 [![Build Status](https://travis-ci.org/iamabs2001/nativescript-chrome-tabs.svg?branch=master)](https://travis-ci.org/iamabs2001/nativescript-chrome-tabs)
+![npm](https://img.shields.io/npm/dt/nativescript-chrome-tabs)
+![NPM](https://img.shields.io/npm/l/nativescript-chrome-tabs)
+![GitHub issues](https://img.shields.io/github/issues/iamabs2001/nativescript-chrome-tabs)
+![Status](https://img.shields.io/badge/status-working-green)
+[![Twitter Follow](https://img.shields.io/twitter/follow/iamabs2001?style=social)](https://twitter.com/iamabs2001)
 
-Chrome Tabs Plugin to open a custom chrome tabs in android & ios.
+Chrome Tabs Plugin to open a custom chrome tabs in android (chrome) & ios (safari).
 
 ## Installation
 
 ```
 tns plugin add nativescript-chrome-tabs
 ```
+<hr>
+
+## Demo 
+
+| ![Demo 1](screenshots/1.png) | ![Demo 2](screenshots/2.png) |
+| ----------- | ----------- |
+| ![Demo 3](screenshots/3.png) | ![Demo 4](screenshots/4.png) |
+
+<hr>
 
 ## Usage 
 
 ```html
-<Button text="click to view" (tap)="myCustomWeb();">
+<Button text="click" (tap)="myCustomWeb();">
 ```
 
-### javascript
+### Javascript
 
 ```javascript
 var { initChromeTab, openChromeTab } = require('nativescript-chrome-tabs');
@@ -36,7 +50,7 @@ function myCustomWeb() {
 }
 ```
 
-### typescript
+### Typescript
 
 ```typescript
 import { initChromeTab, openChromeTab } from "nativescript-chrome-tabs";
