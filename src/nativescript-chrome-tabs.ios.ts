@@ -1,6 +1,5 @@
 import { NativescriptChromeTabsOptions } from './nativescript-chrome-tabs.common';
-import {Color} from '@nativescript/core/color';
-import * as utils from '@nativescript/core/utils/utils';
+import {Color, Utils as utils} from '@nativescript/core';
 
 class SFSafariViewControllerDelegateImpl extends NSObject implements SFSafariViewControllerDelegate {
   public static ObjCProtocols = [SFSafariViewControllerDelegate];
